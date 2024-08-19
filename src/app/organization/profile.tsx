@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
+
 import { Button } from "@mui/material";
 
-const OrganizationProfile: NextPage = () => {
+export default function OrganizationProfile() {
   return (
     <div className="w-full h-[812px] relative bg-color-palette-neutral-00 overflow-hidden flex flex-col items-start justify-start gap-[263px] leading-[normal] tracking-[normal] text-left text-base text-color-palette-neutral-90 font-semibold-body-button">
       <div className="self-stretch overflow-x-auto hidden flex-col items-start justify-center py-0 pl-5 pr-0 box-border max-w-full">
@@ -770,4 +770,3 @@ const OrganizationProfile: NextPage = () => {
   );
 };
 
-export default OrganizationProfile;

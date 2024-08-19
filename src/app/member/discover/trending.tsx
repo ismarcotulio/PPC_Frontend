@@ -1,6 +1,6 @@
-import type { NextPage } from "next";
 
-const Novedades: NextPage = () => {
+
+export default function Novedades() {
   return (
     <div className="w-full relative bg-whitesmoke-100 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[188px] box-border leading-[normal] tracking-[normal] text-left text-base text-color-palette-neutral-50 font-semibold-body-button">
       <div className="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[11px] box-border max-w-full">
@@ -1066,4 +1066,3 @@ const Novedades: NextPage = () => {
   );
 };
 
-export default Novedades;

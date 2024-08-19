@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
+
 import { TextField, InputAdornment, Icon, IconButton } from "@mui/material";
 
-const ActividadCrearEventoConL: NextPage = () => {
+export default function ActividadCrearEventoConL() {
   return (
     <div className="w-full relative bg-color-palette-neutral-00 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[9px] box-border gap-[63px] leading-[normal] tracking-[normal]">
       <main className="self-stretch flex flex-col items-start justify-start gap-[3px] max-w-full">
@@ -442,4 +442,3 @@ const ActividadCrearEventoConL: NextPage = () => {
   );
 };
 
-export default ActividadCrearEventoConL;

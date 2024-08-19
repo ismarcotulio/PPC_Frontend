@@ -1,6 +1,4 @@
-import type { NextPage } from "next";
-
-const SignIn: NextPage = () => {
+export default function SignIn() {
   return (
     <div className="w-full relative bg-color-palette-neutral-00 h-[799px] overflow-hidden text-center text-sm text-gray font-inter">
       <div className="absolute top-[calc(50%_-_134.5px)] left-[calc(50%_-_186.5px)] flex flex-col items-center justify-start py-0 px-6 gap-6">
@@ -59,5 +57,3 @@ const SignIn: NextPage = () => {
     </div>
   );
 };
-
-export default SignIn;

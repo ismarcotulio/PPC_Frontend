@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
+
 import { Button } from "@mui/material";
 
-const ActividadEvento: NextPage = () => {
+export default function ActividadEvento(){
   return (
     <div className="w-full relative bg-color-palette-neutral-00 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[11px] box-border gap-[170px] leading-[normal] tracking-[normal]">
       <section className="w-[327px] absolute !m-[0] bottom-[166px] left-[22px] text-xs leading-[150%] font-inter text-gray whitespace-pre-wrap text-center inline-block">
@@ -311,4 +311,3 @@ const ActividadEvento: NextPage = () => {
   );
 };
 
-export default ActividadEvento;

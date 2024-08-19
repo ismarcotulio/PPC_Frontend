@@ -1,6 +1,6 @@
-import type { NextPage } from "next";
 
-const InicioOrganizacion: NextPage = () => {
+
+export default function InicioOrganizacion() {
   return (
     <div className="w-full relative bg-color-palette-neutral-00 overflow-hidden flex flex-col items-start justify-start pt-11 px-0 pb-0 box-border gap-[344px] leading-[normal] tracking-[normal] text-left text-sm text-color-palette-neutral-90 font-semibold-footnote">
       <section className="self-stretch flex flex-col items-start justify-start gap-[11px] max-w-full text-left text-base text-color-palette-neutral-50 font-semibold-footnote">
@@ -404,5 +404,3 @@ const InicioOrganizacion: NextPage = () => {
     </div>
   );
 };
-
-export default InicioOrganizacion;
