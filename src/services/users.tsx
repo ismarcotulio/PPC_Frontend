@@ -72,7 +72,7 @@ export async function Register(userRegistration: UserRegistration) {
 
 
 
-export async function LoginUser(userLogin: { username: string, password: string }) {
+export async function LoginUser(userLogin: { email: string, password: string }) {
 
     const response = await fetch(`${ settings.domain }/login/custom`,{
         method: 'POST',
