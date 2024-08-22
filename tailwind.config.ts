@@ -25,6 +25,7 @@ const config: Config = {
             "color-palette-primary-100": "#85ff9e",
             "color-palette-neutral-10": "#e7e7e8",
             "color-palette-primary-190": "#132e18",
+            "color-palette-red-100": "#F25B5B",
             gray: "#828282",
             
             whitesmoke: {

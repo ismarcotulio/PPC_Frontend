@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import SignUpForm from '../../components/signup.form';
 
@@ -14,6 +15,22 @@ export default function SignUp() {
         </div>
         <button 
             className="w-[327px] relative rounded-lg bg-whitesmoke active:bg-color-palette-neutral-20 h-10 text-left text-black transition duration-150 ease-in-out"
+            onClick={async () => {
+              try {
+                const response = await fetch('http://localhost:8000/login/google', {
+                  method: 'GET', // or 'POST'
+                  headers: {
+                    'Content-Type': 'application/json',
+                    // 'Authorization': 'Bearer YOUR_TOKEN' // if needed
+                  },
+                  // body: JSON.stringify(data), // if needed
+                });
+                const data = await response.json();
+                console.log(data);
+              } catch (error) {
+                console.error('Error:', error);
+              }
+            }}
           >
             <div className="absolute top-[calc(50%_-_10px)] left-[calc(50%_-_37.5px)] flex flex-row items-center justify-start gap-2">
               <img
